@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Greenfield Realty — Find Your Land & Home</title>
+    <meta name="description" content="Greenfield Realty — Residential and land listings with trusted local agents." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="realestate.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap">
+        <div class="brand">
+          <div class="logo">GR</div>
+          <div class="title">Greenfield Realty</div>
+        </div>
+        <nav class="nav">
+          <a href="#listings">Listings</a>
+          <a href="#about">About</a>
+          <a href="#contact" class="cta">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero-inner wrap">
+        <div class="hero-copy">
+          <h1>Land & Homes — Curated for your next chapter</h1>
+          <p>Explore premium plots, family homes and investment opportunities with local experts guiding every step.</p>
+          <div class="hero-actions">
+            <a href="#listings" class="btn btn-primary">View listings</a>
+            <a href="#contact" class="btn btn-outline">Get a consultation</a>
+          </div>
+        </div>
+        <div class="hero-media" aria-hidden="true">
+          <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1400&q=80" alt="Beautiful estate with lawn">
+        </div>
+      </div>
+    </section>
+
+    <main class="wrap">
+      <section id="listings" class="listings">
+        <h2>Featured properties</h2>
+        <p class="sub">Handpicked land parcels and houses ready to visit.</p>
+        <div class="grid">
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=1000&q=80" alt="Modern family house exterior">
+            <div class="card-body">
+              <h3>Riverside Family Home</h3>
+              <p class="meta">4 bed • 3 bath • 2,450 sqft</p>
+              <p class="price">$649,000</p>
+              <a href="#contact" class="btn btn-sm">Request visit</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1506910918318-6b1f5f1fe8b9?auto=format&fit=crop&w=1000&q=80" alt="Open land with rolling hills">
+            <div class="card-body">
+              <h3>Sunny Acreage</h3>
+              <p class="meta">12.5 acres • Undeveloped • Scenic outlook</p>
+              <p class="price">$225,000</p>
+              <a href="#contact" class="btn btn-sm">Ask about zoning</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1560184897-6fb4cde0b3d6?auto=format&fit=crop&w=1000&q=80" alt="Contemporary house with garden">
+            <div class="card-body">
+              <h3>Garden Grove Cottage</h3>
+              <p class="meta">3 bed • 2 bath • 1,480 sqft</p>
+              <p class="price">$398,000</p>
+              <a href="#contact" class="btn btn-sm">Contact agent</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="about" class="about">
+        <div class="split">
+          <div>
+            <h2>Local agents. Big results.</h2>
+            <p>We connect buyers with thoughtfully selected properties and provide transparent guidance through inspection, financing and closing.</p>
+            <ul class="bullets">
+              <li>On-site viewings within 24–48 hours</li>
+              <li>Market valuation and negotiation support</li>
+              <li>Assisted paperwork and title checks</li>
+            </ul>
+          </div>
+          <div class="about-media">
+            <img src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?auto=format&fit=crop&w=1000&q=80" alt="Agent showing a house plan to clients">
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <h2>Ready to find your property?</h2>
+        <p>Reach out and we'll match you with listings that meet your goals.</p>
+        <form class="contact-form" action="mailto:hello@greenfieldrealty.example" method="post" enctype="text/plain">
+          <input type="text" name="name" placeholder="Your name" required>
+          <input type="email" name="email" placeholder="Email" required>
+          <input type="text" name="budget" placeholder="Budget or parcel size (optional)">
+          <button class="btn btn-primary" type="submit">Send inquiry</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <div>
+          <strong>Greenfield Realty</strong>
+          <div class="muted">Trusted local agents • © <span id="year"></span></div>
+        </div>
+        <div class="footer-links">
+          <a href="#listings">Listings</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
